@@ -1,11 +1,5 @@
 module.exports = function(number) {
-    if(number == 15){
-        return 'FizzBuzz';
-    }
-    if(number == 45){
-        return 'FizzBuzz';
-    }
-    if(number == 60){
+    if(number % 15 == 0){
         return 'FizzBuzz';
     }
     if (number % 3 == 0) {
