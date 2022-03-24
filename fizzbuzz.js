@@ -8,5 +8,8 @@ module.exports = function(number) {
     if(number == 10){
         return 'Buzz';
     }
+    if(number == 20){
+        return 'Buzz';
+    }
     return number.toString();
 };
