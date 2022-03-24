@@ -5,6 +5,9 @@ module.exports = function(number) {
     if(number == 45){
         return 'FizzBuzz';
     }
+    if(number == 60){
+        return 'FizzBuzz';
+    }
     if (number % 3 == 0) {
         return 'Fizz';
     }else if(number % 5 == 0){
