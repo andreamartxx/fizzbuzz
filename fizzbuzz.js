@@ -1,3 +1,3 @@
 module.exports = function(number) {
-    return number;
+    return number.toString();
 };
