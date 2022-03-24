@@ -8,4 +8,8 @@ describe('fizzbuzz', () => {
     test('returns 2 for 2', () => {
         expect(fizzbuzz(2)).toEqual(2);
     });
+
+    test('returns 4 for 4', () => {
+        expect(fizzbuzz(4)).toEqual(4);
+    });
 });
