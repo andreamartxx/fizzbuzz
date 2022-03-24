@@ -1,3 +1,6 @@
-module.exports = function() {
-    return 1;
+module.exports = function(number) {
+    if(number == 1){
+        return 1;
+    }
+    return 2;
 };
