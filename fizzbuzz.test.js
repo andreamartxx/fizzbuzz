@@ -51,4 +51,12 @@ describe('fizzbuzz', () => {
     test('return Bang for 7', () => {
         expect(fizzbuzz(7)).toEqual('Bang');
     });
+
+    test('return Bang for 49', () => {
+        expect(fizzbuzz(49)).toEqual('Bang');
+    });
+
+    test('return Bang for 77', () => {
+        expect(fizzbuzz(77)).toEqual('Bang');
+    });
 });
