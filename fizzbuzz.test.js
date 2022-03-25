@@ -47,4 +47,8 @@ describe('fizzbuzz', () => {
     test('return FizzBuzz for 60', () => {
         expect(fizzbuzz(60)).toEqual('FizzBuzz');
     });
+
+    test('return Bang for 7', () => {
+        expect(fizzbuzz(7)).toEqual('Bang');
+    });
 });
