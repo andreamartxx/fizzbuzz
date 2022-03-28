@@ -10,7 +10,7 @@ function print(){
 
     num = prompt("Enter a number: ");
 
-    console.log(`${num % 3 ? '' : 'Fizz'}${num % 5 ? '' : 'Buzz'}${num % 7 ? '':'Bang'}` || num.toString());
+    console.log(fizzbuzz(num));
     
 }
 
