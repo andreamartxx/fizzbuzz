@@ -1,8 +1,6 @@
 const fizzbuzz = require('./fizzbuzz');
 
-function print(){
-
-    const prompt = require("prompt-sync")();
+function print(prompt, console){
 
     num = prompt("Enter a number: ");
 
@@ -10,4 +8,4 @@ function print(){
     
 }
 
-print();
+print(require("prompt-sync")(), console);
