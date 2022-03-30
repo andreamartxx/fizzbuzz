@@ -8,4 +8,4 @@ function print(prompt, console){
     
 }
 
-print(require("prompt-sync")(), console);
+module.exports = print;
